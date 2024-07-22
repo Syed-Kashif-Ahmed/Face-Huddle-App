@@ -1,4 +1,3 @@
-import CallList from '@/components/CallList';
 import '@/app/(root)/(home)/about-us/styles.css';
 import Image from 'next/image';
 import { Quote } from 'lucide-react';
