@@ -28,7 +28,7 @@ const AboutUs = () => {
         <div className="container hovering">
           <ul>
             <Quote/>
-            <h3 className='up2'> " Success and Failure are both part of our life, and both are not Permanent. "</h3>        
+            <h3 className='up2'> Success and Failure are both part of our life, and both are not Permanent."</h3>        
             <div className='up'>
               <br></br>
               <li>
