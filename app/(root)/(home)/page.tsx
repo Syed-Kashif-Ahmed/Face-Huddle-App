@@ -3,8 +3,8 @@ import MeetingTypeList from '@/components/MeetingTypeList';
 const Home = () => {
   const now = new Date();
 
-  let time = (new Intl.DateTimeFormat('en-US', { hour: '2-digit', minute: '2-digit' })).format(now);
-  let date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full' })).format(now);
+  const time = (new Intl.DateTimeFormat('en-US', { hour: '2-digit', minute: '2-digit' })).format(now);
+  const date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full' })).format(now);
   return (
     <section className="flex size-full flex-col gap-5 text-white">
       <div className="h-[303px] w-full rounded-[20px] bg-hero bg-cover">
