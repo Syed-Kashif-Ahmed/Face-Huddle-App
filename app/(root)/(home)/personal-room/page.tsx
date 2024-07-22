@@ -54,7 +54,7 @@ const PersonalRoom = () => {
   };
 
   const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${meetingId}?personal=true`;
-  var userTopic = `${user?.fullName}`;
+  let userTopic = `${user?.fullName}`;
   // var userTopic = userE_Add.substring(0,userE_Add.indexOf('@'));
 
   return ( 
